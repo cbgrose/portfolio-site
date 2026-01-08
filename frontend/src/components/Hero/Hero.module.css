@@ -1,0 +1,34 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 35vh;
+    box-sizing: border-box;    
+}
+
+.largeText {
+    font-family: 'Gilda Display', serif;
+    text-transform: uppercase;
+    font-size: max(3rem, 15vh);
+    font-weight: 400;
+    line-height: 0.8;
+    margin: 0
+}
+
+.middleRow {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.smallText {
+    font-size: 0.8rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+}
