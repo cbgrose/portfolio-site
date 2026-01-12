@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 interface NavLink {
@@ -7,11 +8,11 @@ interface NavLink {
 }
 
 const navLinks: NavLink[] = [
-  { label: "Home", href: "#home", colour: "#FF0000" },
-  { label: "About", href: "#about", colour: "#FF9D00" },
-  { label: "Tools", href: "#projects", colour: "#FFC300" },
-  { label: "Contact", href: "#contact", colour: "#FF0066" },
-  { label: "Shop", href: "#shop", colour: "#FF00BF" },
+  { label: "Home", href: "/", colour: "#FF0000" },
+  { label: "About", href: "/about", colour: "#FFC300" },
+  { label: "Tools", href: "/tools", colour: "#FF9D00" },
+  { label: "Contact", href: "/contact", colour: "#FF0066" },
+  { label: "Shop", href: "/shop", colour: "#FF00BF" },
 ];
 
 // CHANGED NAME HERE:
@@ -19,13 +20,13 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       {navLinks.map((link) => (
-        <a key={link.label} href={link.href} className={styles.navbarItem}>
+        <Link key={link.label} to={link.href} className={styles.navbarItem}>
           <span
             className={styles.dot}
             style={{ backgroundColor: link.colour }}
           ></span>
           <span>{link.label}</span>
-        </a>
+        </Link>
       ))}
     </nav>
   );
