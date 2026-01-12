@@ -1,0 +1,40 @@
+.displayContainer{
+    width: 100%;
+    height: 100%;
+    
+    /* 1. Center the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+}
+
+.bioImage {
+    width: auto;
+    height: auto;
+
+    max-width: 100%;       
+    max-height: 60vh;
+
+
+    object-fit: contain;
+    
+    /* Keep your smooth fade animation */
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.bioCaption{
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.5rem;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
