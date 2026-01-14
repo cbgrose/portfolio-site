@@ -10,7 +10,7 @@ Hi, I'm [Christian], a Master's student at Imperial College London, based in Sou
 
 I describe myself as a T-shaped Design Engineer. This means that I love navigating wide solution spaces just as much as I enjoy diving into technical niches. My skillset spans the entire product journey, from initial strategy and sketching, all the way to tolerances and PCB layouts.
 
-Currently, I’m applying this approach to my Master's project in collaboration with a large consumer technology company, bringing together wide experience in product development with specific depth in full-stack embedded prototyping.
+Currently, I’m applying this approach to my Master's project in collaboration with a large London-based consumer electonics company, bringing together wide experience in product development with specific depth in full-stack embedded prototyping.
 
 I’ve been lucky to work with some amazing teams along the way. My background includes designing products for 2050 at Tsinghua University, working with the V&A Youth Collective, and an internship at AirEmail.
 

@@ -1,0 +1,9 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+
+# Node Modules (Frontend dependencies)
+node_modules/
+.DS_Store
+dist/
